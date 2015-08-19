@@ -9,6 +9,8 @@
 import UIKit
 import CoreData
 
+let screen = UIScreen.mainScreen().bounds
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

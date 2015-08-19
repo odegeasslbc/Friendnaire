@@ -12,6 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var postView = PostView()
+        var gainView = GainView()
+        postView.delegate = gainView
+        gainView.delegate = postView
+        self.view.addSubview(gainView)
+        self.view.addSubview(postView)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

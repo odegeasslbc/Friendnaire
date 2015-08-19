@@ -14,6 +14,8 @@
 		323408731B83A8EB007CF41C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323408721B83A8EB007CF41C /* Images.xcassets */; };
 		323408761B83A8EB007CF41C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323408741B83A8EB007CF41C /* LaunchScreen.xib */; };
 		323408821B83A8EB007CF41C /* FriendnaireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323408811B83A8EB007CF41C /* FriendnaireTests.swift */; };
+		3234088C1B83A95C007CF41C /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3234088B1B83A95C007CF41C /* PostView.swift */; };
+		3234088E1B83B444007CF41C /* GaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3234088D1B83B444007CF41C /* GaintView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		3234087B1B83A8EB007CF41C /* FriendnaireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendnaireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		323408801B83A8EB007CF41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		323408811B83A8EB007CF41C /* FriendnaireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendnaireTests.swift; sourceTree = "<group>"; };
+		3234088B1B83A95C007CF41C /* PostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		3234088D1B83B444007CF41C /* GaintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaintView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				323408681B83A8EB007CF41C /* AppDelegate.swift */,
+				3234088B1B83A95C007CF41C /* PostView.swift */,
+				3234088D1B83B444007CF41C /* GaintView.swift */,
 				3234086D1B83A8EB007CF41C /* ViewController.swift */,
 				3234086F1B83A8EB007CF41C /* Main.storyboard */,
 				323408721B83A8EB007CF41C /* Images.xcassets */,
@@ -216,7 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3234086E1B83A8EB007CF41C /* ViewController.swift in Sources */,
+				3234088E1B83B444007CF41C /* GaintView.swift in Sources */,
 				323408691B83A8EB007CF41C /* AppDelegate.swift in Sources */,
+				3234088C1B83A95C007CF41C /* PostView.swift in Sources */,
 				3234086C1B83A8EB007CF41C /* Friendnaire.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +353,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Friendnaire/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Friendnaire/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
